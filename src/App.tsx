@@ -14,8 +14,8 @@ function App() {
           <BrowserRouter>
             <Routes>
               <Route index path="/" element={<StartPage />} />
-              <Route index path="/question" element={<QuestionPage />} />
-              <Route index path="/score" element={<ScorePage />} />
+              <Route  path="/question" element={<QuestionPage />} />
+              <Route  path="/score" element={<ScorePage />} />
             </Routes>
           </BrowserRouter>
         </AppProvider>
