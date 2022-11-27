@@ -13,7 +13,7 @@ function App() {
         <AppProvider>
           <BrowserRouter>
             <Routes>
-              <Route index path="/" element={<StartPage />} />
+              <Route index path="/quiz" element={<StartPage />} />
               <Route  path="/question" element={<QuestionPage />} />
               <Route  path="/score" element={<ScorePage />} />
             </Routes>

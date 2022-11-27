@@ -22,7 +22,7 @@ function QuestionPage() {
 
   useEffect(() => {
     if (!state.question_category) {
-      navigation("/");
+      navigation("/quiz");
       return;
     }
   }, [state.question_category])
