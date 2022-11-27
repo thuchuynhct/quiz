@@ -14,7 +14,7 @@ function ScorePage() {
     dispatch({
       type: RESET
     });
-    navigation("/quiz");
+    navigation("/");
   }
   return (
     <Form onSubmit={playAgain} btnText="Play Again">

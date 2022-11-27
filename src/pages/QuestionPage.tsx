@@ -22,10 +22,10 @@ function QuestionPage() {
 
   useEffect(() => {
     if (!state.question_category) {
-      navigation("/quiz");
+      navigation("/");
       return;
     }
-  }, [state.question_category])
+  }, [])
 
   const apiUrl = `/api.php?category=${state.question_category}&difficulty=${state.question_difficulty}&type=${state.question_type}&amount=${state.amount_of_question}`;
   const { response, loading } = useAxios(apiUrl);
@@ -39,7 +39,7 @@ function QuestionPage() {
     }
   }, [response, questionIndex])
 
-  if (loading || questions.length == 0) {
+  if (loading || questions.length === 0) {
     return <h1>Loading</h1>
   }
   const submitHandler = (e: any) => {
