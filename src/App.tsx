@@ -11,9 +11,9 @@ function App() {
       <Nav />
       <main>
         <AppProvider>
-          <BrowserRouter>
+          <BrowserRouter basename="quiz">
             <Routes>
-              <Route index path="/quiz" element={<StartPage />} />
+              <Route index path="/" element={<StartPage />} />
               <Route  path="/question" element={<QuestionPage />} />
               <Route  path="/score" element={<ScorePage />} />
             </Routes>
