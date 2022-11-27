@@ -1,11 +1,11 @@
 {
   "files": {
     "main.css": "/quiz/static/css/main.fbfa143d.css",
-    "main.js": "/quiz/static/js/main.334e3bea.js",
+    "main.js": "/quiz/static/js/main.d70c8017.js",
     "index.html": "/quiz/index.html"
   },
   "entrypoints": [
     "static/css/main.fbfa143d.css",
-    "static/js/main.334e3bea.js"
+    "static/js/main.d70c8017.js"
   ]
 }
